@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{A07B5EB6-E848-4116-A8D0-A826331D98C6}") = "WebCalculatorApplication", "WebCalculatorApplication\WebCalculatorApplication.sfproj", "{E6B55615-FD71-437C-AE37-E51100010A2E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebCalculatorService", "WebCalculatorService\WebCalculatorService.csproj", "{469C6FF5-8DB3-4578-9020-D9EA78F7EF85}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E6B55615-FD71-437C-AE37-E51100010A2E}.Debug|x64.ActiveCfg = Debug|x64
+		{E6B55615-FD71-437C-AE37-E51100010A2E}.Debug|x64.Build.0 = Debug|x64
+		{E6B55615-FD71-437C-AE37-E51100010A2E}.Debug|x64.Deploy.0 = Debug|x64
+		{E6B55615-FD71-437C-AE37-E51100010A2E}.Release|x64.ActiveCfg = Release|x64
+		{E6B55615-FD71-437C-AE37-E51100010A2E}.Release|x64.Build.0 = Release|x64
+		{E6B55615-FD71-437C-AE37-E51100010A2E}.Release|x64.Deploy.0 = Release|x64
+		{469C6FF5-8DB3-4578-9020-D9EA78F7EF85}.Debug|x64.ActiveCfg = Debug|x64
+		{469C6FF5-8DB3-4578-9020-D9EA78F7EF85}.Debug|x64.Build.0 = Debug|x64
+		{469C6FF5-8DB3-4578-9020-D9EA78F7EF85}.Release|x64.ActiveCfg = Release|x64
+		{469C6FF5-8DB3-4578-9020-D9EA78F7EF85}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
