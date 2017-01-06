@@ -1,5 +1,5 @@
 ![Azure SDK Version](https://img.shields.io/badge/Azure_SDK-v2.9.6-blue.svg)
-![Service Fabric SDK Version](https://img.shields.io/badge/Service_Fabric_SDK-v2.4.145-blue.svg)
+![Service Fabric SDK Version](https://img.shields.io/badge/Service_Fabric_SDK-v2.3.311-blue.svg)
 
 # About this repo
 Updated code samples from the Microsoft Press book "[Programming Microsoft Azure Service Fabric](https://www.microsoftpressstore.com/store/programming-microsoft-azure-service-fabric-9781509301881)"
