@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using CalculatorService.Interfaces;
 
 using Microsoft.ServiceFabric.Services.Communication.Runtime;
+using Microsoft.ServiceFabric.Services.Communication.Wcf;
 using Microsoft.ServiceFabric.Services.Communication.Wcf.Runtime;
 using Microsoft.ServiceFabric.Services.Runtime;
 
@@ -30,7 +31,7 @@ namespace CalculatorService
                 new ServiceInstanceListener( context => new WcfCommunicationListener<ICalculatorService>(
                     serviceContext: context,
                     wcfServiceObject: this,
-                    listenerBinding: new BasicHttpBinding(),
+                    listenerBinding: WcfUtility.CreateTcpListenerBinding(),
                     endpointResourceName: "ServiceEndpoint" ) )
 			};
 		}

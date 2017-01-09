@@ -6,6 +6,7 @@ using CalculatorService.Interfaces;
 
 using Microsoft.ServiceFabric.Services.Client;
 using Microsoft.ServiceFabric.Services.Communication.Client;
+using Microsoft.ServiceFabric.Services.Communication.Wcf;
 using Microsoft.ServiceFabric.Services.Communication.Wcf.Client;
 
 namespace CalculatorClient
@@ -34,7 +35,7 @@ namespace CalculatorClient
 
         static ServiceClient()
         {
-            communicationClientFactory = new WcfCommunicationClientFactory<ICalculatorService>( clientBinding: new BasicHttpBinding() );
+            communicationClientFactory = new WcfCommunicationClientFactory<ICalculatorService>( clientBinding: WcfUtility.CreateTcpClientBinding() );
         }
 
         public ServiceClient( Uri serviceUri ) : this( serviceUri, ServicePartitionKey.Singleton )
